@@ -1,0 +1,107 @@
+[
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q1. Why do you want to work at Amazon?",
+    "answer": "Ans. I want to work at Amazon because of its customer-obsessed culture, massive scale of impact, and the opportunity to work on some of the world's most complex engineering challenges.\nAmazon's Leadership Principles deeply resonate with me, especially Customer Obsession and Ownership.\nThe scale at which Amazon operates — serving hundreds of millions of customers globally — means even small optimizations have enormous real-world impact.\nServices like AWS, Alexa, and Amazon Prime are redefining entire industries, and I want to be part of that innovation.\nAmazon's culture of high ownership and accountability pushes engineers to grow faster than in most other environments.\nThe breadth of domains — cloud, logistics, AI, devices — means there are endless opportunities to learn and contribute.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q2. Tell me about yourself.",
+    "answer": "Ans. I am a software developer with strong foundations in data structures, algorithms, and system design, with a passion for building reliable, scalable software that solves real user problems.\nStart with your educational background and your area of specialization.\nHighlight your core technical skills — languages, frameworks, databases, and cloud tools you are proficient in.\nMention 1–2 impactful projects or internships, focusing on your specific contribution and its outcome.\nConnect your experience to Amazon's core business — scalability, reliability, or customer impact.\nClose by expressing genuine enthusiasm for Amazon's mission and the specific role you are interviewing for.\nKeep it concise — aim for 2 minutes that leave the interviewer wanting to ask follow-up questions.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q3. What are your strengths and weaknesses?",
+    "answer": "Ans. My key strengths are ownership mindset and strong problem-solving ability. My weakness is that I sometimes dive too deep into a problem before stepping back to consider the bigger picture.\nStrength: I take full ownership of my work from design to deployment without waiting to be told what to do.\nStrength: I break down complex problems systematically and identify root causes rather than treating symptoms.\nStrength: I communicate technical ideas clearly, both in writing and in verbal discussions.\nWeakness: I sometimes over-analyze edge cases before shipping — I am improving by timeboxing design phases.\nWeakness: Delegating tasks was initially difficult for me; I have actively worked on trusting teammates and distributing work effectively.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q4. Describe a time when you demonstrated Customer Obsession. (Leadership Principle)",
+    "answer": "Ans. I noticed that our internal dashboard had a confusing UI that was causing support tickets from end users. Without being asked, I redesigned the flow, reduced ticket volume by 40%, and presented the change to the product team for permanent adoption.\nIdentify a specific situation where you prioritized the customer's needs above convenience or speed.\nDescribe what you observed — a pain point, a complaint, or a gap between what customers expected and received.\nExplain the actions you took proactively, without waiting for a directive from your manager.\nQuantify the outcome — reduced support tickets, improved satisfaction scores, or positive user feedback.\nReflect on how thinking from the customer's perspective shaped your technical decisions.\nConnect to Amazon's principle: 'Leaders start with the customer and work backwards.'",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q5. Tell me about a time you took ownership of a problem outside your scope. (Leadership Principle: Ownership)",
+    "answer": "Ans. During a production incident, I noticed a memory leak in a service owned by another team. I stayed late, diagnosed the root cause, wrote a detailed post-mortem, and coordinated the hotfix — restoring service 2 hours faster than if I had waited for the owning team to respond.\nDescribe the situation and why the problem fell outside your formal responsibilities.\nExplain what motivated you to act — user impact, team reputation, or system reliability.\nDetail the steps you took: investigation, collaboration, communication, and resolution.\nEmphasize that you kept the owning team informed rather than bypassing them entirely.\nShare the measurable outcome — reduced downtime, prevented data loss, or improved reliability.\nReflect: Owners never say 'that's not my job' — they act in the best interest of the company.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q6. Describe a situation where you had to Invent and Simplify. (Leadership Principle)",
+    "answer": "Ans. I replaced a complex multi-step manual deployment process with a single automated CI/CD pipeline script, reducing deployment time from 45 minutes to under 5 minutes and eliminating a class of human errors entirely.\nDescribe the original complex or inefficient process and why it was a problem.\nExplain your thought process in identifying that a simpler or novel solution existed.\nDetail the invention — a new tool, script, architecture, or workflow you designed.\nHighlight how you validated the solution before rolling it out broadly.\nQuantify the simplification — time saved, errors reduced, or steps eliminated.\nConnect to Amazon's principle: 'Simplicity is often harder than complexity — it requires hard work.'",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q7. Tell me about a time you Dived Deep into a problem. (Leadership Principle)",
+    "answer": "Ans. When our service latency spiked intermittently, I refused to accept 'it's a network issue' as the root cause. I analyzed 3 weeks of logs, traced it to an unindexed database query that only appeared under specific traffic patterns, and fixed it permanently.\nDescribe a problem that appeared to have an obvious or surface-level explanation.\nExplain why you were not satisfied with that explanation and decided to investigate further.\nDetail the investigation process — tools used, data analyzed, hypotheses tested.\nDescribe the actual root cause you uncovered through deep investigation.\nShare the fix you implemented and how it resolved the issue permanently.\nReflect: Amazon leaders operate at all levels — they never assume the first explanation is complete.",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q8. How do you handle disagreements with a manager or teammate?",
+    "answer": "Ans. I handle disagreements by separating the idea from the person, grounding the conversation in data, and being willing to disagree and commit once a decision is made.\nFirst, I make sure I fully understand the other person's reasoning — I ask clarifying questions before presenting my counter-view.\nI prepare data, benchmarks, or documented trade-offs to support my position objectively.\nI frame the disagreement around the best outcome for the customer or the project, not personal preference.\nIf we cannot reach agreement, I escalate respectfully or propose a time-boxed experiment to test both approaches.\nOnce a decision is made, I commit fully and support it publicly, even if it was not my preferred option.\nThis connects to Amazon's 'Have Backbone; Disagree and Commit' leadership principle.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q9. Describe a time you delivered results under a tight deadline. (Leadership Principle: Deliver Results)",
+    "answer": "Ans. Two days before a major product launch, a critical payment integration bug was discovered. I rescheduled my other tasks, worked closely with the QA and backend teams, and delivered a verified fix within 18 hours — enabling the launch to proceed on time.\nDescribe the original timeline and what unexpected event created urgency.\nExplain how you re-prioritized your work immediately to focus on the most critical task.\nDetail the collaboration you engaged in — who you pulled in, how you communicated progress.\nDescribe the specific actions you took to solve the problem quickly without sacrificing quality.\nShare the outcome — launch proceeded, no revenue loss, or customer impact was avoided.\nReflect: Amazon leaders focus on key inputs and deliver results with the right quality, even in ambiguous or difficult situations.",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q10. Tell me about a time you failed and what you learned from it.",
+    "answer": "Ans. I once pushed a configuration change without a staged rollout, which caused a 30-minute outage for 10% of users. I owned the incident fully, led the post-mortem, and implemented a mandatory staged deployment policy that prevented similar issues thereafter.\nBe honest and specific — interviewers at Amazon value genuine accountability over polished narratives.\nDescribe what went wrong, and be clear that you were responsible.\nExplain the immediate steps you took to mitigate the impact once the failure occurred.\nDetail the root cause analysis and what you discovered about the gap in your process.\nDescribe the concrete changes you made — new process, tool, or habit — to prevent recurrence.\nConvey a growth mindset: failure is data, not identity.",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q11. How do you prioritize when you have multiple competing tasks?",
+    "answer": "Ans. I prioritize by assessing customer impact, business urgency, and dependencies, then communicate my plan to stakeholders early so expectations are aligned before deadlines are missed.\nI list all tasks and identify which ones are blocking other people or other teams first.\nI evaluate each task by its customer or business impact — high-impact work gets priority over low-impact work.\nI use urgency vs. importance frameworks to separate what is truly urgent from what merely feels urgent.\nI communicate proactively with managers and stakeholders when I have more work than capacity, and I ask for help with trade-off decisions.\nI break large tasks into milestones so even long-running work shows visible progress.\nI revisit priorities at the start of each day, since what was most important yesterday may have shifted.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q12. What are your short-term and long-term career goals?",
+    "answer": "Ans. Short-term, I want to deepen my expertise in distributed systems and deliver measurable impact in my immediate team. Long-term, I aim to grow into a senior or principal engineer who shapes technical direction and mentors others.\nShort-term goal: Master the technologies and domain of my immediate role within the first 6 months.\nShort-term goal: Deliver at least one high-visibility project that has a measurable positive impact on customers or team efficiency.\nShort-term goal: Build strong working relationships with teammates, stakeholders, and cross-functional partners.\nLong-term goal: Become a technical leader who can independently define and drive large, ambiguous engineering initiatives.\nLong-term goal: Mentor junior engineers and help raise the engineering bar within my organization.\nLong-term goal: Contribute to Amazon's technical strategy through design documents, RFC proposals, or internal innovation programs.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q13. How do you ensure the quality of your code and systems?",
+    "answer": "Ans. I ensure quality through a layered approach: rigorous code reviews, comprehensive automated testing, monitoring, and a culture of holding a high bar for what gets merged into production.\nI write unit tests, integration tests, and end-to-end tests before or alongside the code I develop.\nI use code reviews not just to catch bugs but to share knowledge and maintain architectural consistency.\nI set up or contribute to CI/CD pipelines that run tests, linters, and security scans on every pull request.\nI instrument code with meaningful metrics, logs, and alerts so issues surface in production before customers report them.\nI conduct thorough design reviews for complex systems before writing a single line of code.\nI follow the Amazon practice of writing the Press Release and FAQ before designing the system, to ensure the customer outcome stays central.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q14. Describe a time you had to learn something quickly to complete a project.",
+    "answer": "Ans. I was assigned to migrate a legacy service to AWS Lambda with no prior serverless experience. I completed the official AWS documentation, built a prototype in 3 days, and delivered the migration 1 week ahead of schedule.\nDescribe the project and the specific knowledge gap you faced at the start.\nExplain the urgency — why learning quickly was not optional.\nDetail your learning strategy: documentation, tutorials, pair programming, or prototyping.\nDescribe the prototype or proof-of-concept you built to validate your understanding rapidly.\nShare the outcome — the delivered feature, the timeline met, and any performance improvements.\nReflect: Amazon values continuous learning — 'Learn and Be Curious' is a core leadership principle.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q15. Do you have any questions for us?",
+    "answer": "Ans. Yes — I always prepare thoughtful questions that show genuine interest in the team, the technical challenges, and how success is measured in the role.\nWhat does the on-call and operational responsibility look like for this team, and how is engineer well-being protected?\nHow does the team measure success for a new engineer in the first 90 days?\nWhat is the most significant technical challenge the team is working to solve right now?\nHow are technical decisions made — is it consensus-driven or does a tech lead or principal engineer have final say?\nWhat opportunities exist for engineers to publish internally, contribute to open source, or attend conferences?\nHow does this team embody Amazon's Leadership Principles in its day-to-day ways of working?",
+    "difficulty": "Easy"
+  }
+]

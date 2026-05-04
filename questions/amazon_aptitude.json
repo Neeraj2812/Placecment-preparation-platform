@@ -1,0 +1,142 @@
+[
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "A student got twice as many sums wrong as he got right. If he attempted 48 sums in all, how many did he solve correctly?",
+    "answer": "Suppose the boy got x sums right and 2x sums wrong. \nThen, x + 2x = 48 \n3x = 48 \nx = 16. \n\nCorrect Answer: b) 16",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "A man fixed an appointment to meet the manager, Manager asked him to come two days after the day before the day after tomorrow. Today is Friday. When will the manager expect him?",
+    "answer": "Logical breakdown: \n- Day after tomorrow: Sunday \n- Day before that: Saturday \n- Two days after that: Monday \n\nCorrect Answer: b) Monday",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "There is a merry-go-round race going on. One person says, '1/3 of those in front of me and 3/4 of those behind me, give the total number of children in the race'. Then the number of children who took part in the race?",
+    "answer": "In a round race, the number of participants in front of a person will be x-1 and that behind him will be x-1. \nEquation: 1/3(x-1) + 3/4(x-1) = x \nSolving for x gives 13. \n\nCorrect Answer: c) 13",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "Find the value of X, Y and Z in the following addition: \n  XXXX \n+ YYYY \n+ ZZZZ \n-------- \nYXXX Z",
+    "answer": "By trial and error or algebraic substitution: \nX=9, Y=1, Z=8 \n\nCorrect Answer: d) X=9, Y=1, Z=8",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "The smallest number which when diminished by 7, is divisible by 12, 16, 18, 21 and 28 is?",
+    "answer": "Required number = (L.C.M. of 12, 16, 18, 21, 28) + 7 \n= 1008 + 7 = 1015 \n\nCorrect Answer: b) 1015",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "The ratio of two numbers is 3 : 4 and their H.C.F. is 4. Their L.C.M. is?",
+    "answer": "Let the numbers be 3x and 4x. \nH.C.F. = x, so x = 4. \nNumbers are 12 and 16. \nL.C.M. of 12 and 16 = 48. \n\nCorrect Answer: d) 48",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "252 can be expressed as a product of primes as?",
+    "answer": "Prime factorization: \n252 / 2 = 126 \n126 / 2 = 63 \n63 / 3 = 21 \n21 / 3 = 7 \n252 = 2 x 2 x 3 x 3 x 7 \n\nCorrect Answer: a) 2 x 2 x 3 x 3 x 7",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "Complete the series: 21, 9, 21, 11, 21, 13, 21, ___",
+    "answer": "This is an alternating series. The number 21 is interpolated between an addition series (9, 11, 13, ...). The next number after 13 is 15. \n\nCorrect Answer: b) 15",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "Two trains, one from Howrah to Patna and the other from Patna to Howrah, start simultaneously. After they meet, the trains reach their destinations after 9 hours and 16 hours respectively. The ratio of their speeds is?",
+    "answer": "Ratio of speeds = sqrt(Time taken by B) : sqrt(Time taken by A) \n= sqrt(16) : sqrt(9) = 4 : 3 \n\nCorrect Answer: b) 4 : 3",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "If a and b are positive integers and (a-b)/3.5 = 4/7, then:",
+    "answer": "Since 4/7 is positive and 3.5 is positive, (a-b) must be positive. \nTherefore, a - b > 0 => a > b or b < a. \n\nCorrect Answer: a) b < a",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "If 5 women or 8 girls can do a work in 84 days. In how many days can 10 women and 5 girls can do the same work?",
+    "answer": "5 women = 8 girls => 1 woman = 8/5 girls. \n10 women = 16 girls. \nTotal workers = 16 girls + 5 girls = 21 girls. \nUsing M1D1 = M2D2: 8 * 84 = 21 * D2 \nD2 = 32 days. \n\nCorrect Answer: d) 32 days",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "If 9 men working 6 hours a day can do a work in 88 days. Then 6 men working 8 hours a day can do it in how many days?",
+    "answer": "Formula: M1*H1*D1 = M2*H2*D2 \n9 * 6 * 88 = 6 * 8 * D2 \n4752 = 48 * D2 \nD2 = 99 days. \n\nCorrect Answer: b) 99",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "Walking at 3/4 of his usual speed, a man is late by 2 1/2 hr. The usual time is?",
+    "answer": "Let usual speed be S and usual time be T. \nNew speed = 3/4 S, New time = 4/3 T. \n4/3 T - T = 5/2 \n1/3 T = 5/2 \nT = 15/2 = 7 1/2 hours. \n\nCorrect Answer: b) 7 1/2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "In a boat, 25 persons were sitting. Their average weight increased one kilogram when one man goes and a new man comes in. The weight of the new man is 70kgs. Find the weight of the man who is going?",
+    "answer": "Total increase in weight = 25 * 1 = 25 kg. \nWeight of old man = New man's weight - Total increase \n= 70 - 25 = 45 kg. \n\nCorrect Answer: a) 45",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "A man can row 4.5 km/hr in still water. It takes him twice as long to row upstream as to row downstream. What is the rate of the current?",
+    "answer": "Let boat speed = b, current = u. \nDownstream speed (D) = b + u, Upstream speed (U) = b - u. \nTime is inversely proportional to speed. \nD = 2 * U \nb + u = 2(b - u) \n3u = b \nu = 4.5 / 3 = 1.5 km/hr. \n\nCorrect Answer: d) 1.5 km/hr",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "A sum of money amounts to Rs. 9800 after 5 years and Rs. 12005 after 8 years at simple interest. Find the rate of interest per annum.",
+    "answer": "S.I. for 3 years = 12005 - 9800 = 2205 \nS.I. for 1 year = 735 \nS.I. for 5 years = 3675 \nPrincipal = 9800 - 3675 = 6125 \nRate = (3675 * 100) / (6125 * 5) = 12% \n\nCorrect Answer: c) 12%",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "A man walks at 4 km/hr on level ground, 3 km/hr uphill, and 6 km/hr downhill. He reaches home in 6 hours total. What is the one-way distance?",
+    "answer": "Average speed for uphill and downhill = (2 * 3 * 6) / (3 + 6) = 4 km/hr. \nSince the speed on all types of ground effectively averages to 4 km/hr: \nTotal distance = 4 * 6 = 24 km. \nOne-way distance = 12 km. \n\nCorrect Answer: a) 12 km",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "In a group of cows and hens, the number of legs are 14 more than twice the number of heads. The number of cows is:",
+    "answer": "Let cows = x, hens = y. \nLegs = 4x + 2y, Heads = x + y. \n4x + 2y = 2(x + y) + 14 \n2x = 14 \nx = 7. \n\nCorrect Answer: b) 7",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "I have sweets to distribute. If I pack in 2, 3 or 4, I'm left with 1. If I pack in 5, I'm left with none. What is the minimum number of sweets?",
+    "answer": "Find a multiple of 5 that leaves remainder 1 when divided by LCM(2,3,4)=12. \nMultiples of 5: 5, 10, 15, 20, 25... \n25 / 12 leaves remainder 1. \n\nCorrect Answer: a) 25",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "aptitude",
+    "company": "Amazon",
+    "question": "2 trains start from stations 200km apart and cross each other 110km from one station. What is the ratio of their speeds?",
+    "answer": "Train 1 covers 110km, Train 2 covers 200 - 110 = 90km in the same time. \nRatio of speeds = Ratio of distance = 110 : 90 = 11 : 9. \n\nCorrect Answer: a) 11:9",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q1. Why do you want to work at Google?",
+    "answer": "Ans. I want to work at Google because of its mission to organize the world's information and its culture of innovation and technical excellence.\nGoogle works on products that impact billions of people, which is incredibly motivating.\nThe engineering culture emphasizes open collaboration, data-driven decisions, and continuous learning.\nGoogle invests heavily in employee growth through 20% projects, internal mobility, and learning resources.\nI admire Google's commitment to solving hard, meaningful problems at a massive scale.\nThe opportunity to work alongside some of the brightest minds in the industry is a huge draw.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q2. Tell me about yourself.",
+    "answer": "Ans. I am a software developer with a strong foundation in data structures, algorithms, and full-stack development, passionate about building scalable and user-centric products.\nStart with your educational background and relevant degree or field of study.\nHighlight your key technical skills such as programming languages, frameworks, and tools.\nMention 1–2 significant projects or internships that demonstrate your problem-solving ability.\nExpress your passion for technology and the kind of impact you want to create.\nClose by connecting your background to why Google is the right next step for you.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q3. What are your strengths and weaknesses?",
+    "answer": "Ans. My strengths include strong analytical thinking and the ability to break down complex problems. My weakness is that I sometimes over-engineer solutions, though I am actively working on shipping simpler, iterative versions first.\nStrength: Strong problem-solving and algorithmic thinking.\nStrength: Effective communicator who can explain technical concepts clearly to non-technical stakeholders.\nStrength: Quick learner who adapts well to new technologies and environments.\nWeakness: Tendency to over-engineer — I am improving by setting time-boxed design constraints.\nWeakness: Perfectionism — I now practice releasing MVPs and iterating based on feedback.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q4. Describe a challenging project you worked on and how you handled it.",
+    "answer": "Ans. I led the development of a real-time collaborative tool that faced significant performance bottlenecks under concurrent load, which I resolved through WebSocket optimization and efficient state management.\nClearly define the project, your role, and the specific challenge you encountered.\nExplain the root cause analysis you performed to understand the problem deeply.\nDescribe the technical solution you designed and the trade-offs you considered.\nMention the outcome — improved performance, reduced latency, or positive user impact.\nReflect on what you learned and how it changed your approach to future projects.\nUse the STAR method: Situation, Task, Action, Result.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q5. How do you handle disagreements with a teammate or manager?",
+    "answer": "Ans. I handle disagreements by focusing on data and objective reasoning rather than personal opinions, and by actively listening to understand the other person's perspective.\nFirst, I make sure I fully understand the other person's viewpoint before presenting my own.\nI rely on data, benchmarks, and documented trade-offs to support my position.\nI propose a small experiment or proof-of-concept when both sides have valid points.\nIf we still disagree, I escalate respectfully by involving a neutral third party or senior engineer.\nI always prioritize the team's and project's best outcome over being personally right.\nAfter resolution, I document the decision and reasoning to prevent similar conflicts in the future.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q6. Where do you see yourself in 5 years?",
+    "answer": "Ans. In 5 years, I see myself as a senior software engineer with deep expertise in distributed systems, contributing to large-scale Google products and mentoring junior engineers.\nI aim to develop deep technical expertise in one or two domains such as distributed systems or machine learning infrastructure.\nI want to take on tech lead responsibilities, guiding the architecture of large features or services.\nI plan to actively mentor junior engineers and contribute to a healthy team culture.\nI hope to have contributed to at least one product or open-source initiative that has meaningful user impact.\nI am open to exploring different roles such as engineering management if that aligns with the team's needs.\nLong-term, I want to grow into a role where I can influence the direction of Google's engineering practices.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q7. How do you prioritize tasks when working on multiple projects simultaneously?",
+    "answer": "Ans. I prioritize tasks by assessing impact, urgency, and dependencies, using structured frameworks like the Eisenhower Matrix and communicating proactively with stakeholders.\nI begin by listing all tasks and categorizing them by urgency and importance.\nI identify tasks that are blocking other team members and prioritize those to unblock parallel work.\nI communicate with stakeholders early when timelines conflict to re-negotiate scope or deadlines.\nI break large tasks into smaller milestones so progress is visible even when a project takes weeks.\nI use tools like Jira, Notion, or simple to-do lists to track progress and avoid dropping items.\nI review and re-prioritize at the start of each day to adapt to new information or changing requirements.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q8. How do you approach learning a new technology or programming language quickly?",
+    "answer": "Ans. I learn new technologies by combining official documentation reading with hands-on project building and seeking out community resources for best practices.\nI start with the official documentation and quickstart guide to get the big picture.\nI immediately build a small project — even a to-do app — to apply concepts in practice.\nI study existing open-source projects that use the technology to understand real-world patterns.\nI use platforms like Google's own developer courses, Coursera, or YouTube for structured learning.\nI ask colleagues who have experience with the technology for tips on common pitfalls.\nI keep notes on key concepts and revisit them regularly using spaced repetition to retain knowledge.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q9. Describe a time when you took ownership of a problem that was not your responsibility.",
+    "answer": "Ans. During a production outage, I noticed a critical bug in a module owned by another team. I investigated the root cause, prepared a detailed report, and coordinated with the on-call engineer to deploy a hotfix, reducing downtime significantly.\nExplain the situation — why it was not formally your responsibility.\nDescribe what motivated you to step in — user impact, team impact, or urgency.\nDetail the actions you took: investigation, communication, and resolution steps.\nHighlight how you collaborated with the actual owner rather than bypassing them.\nShare the outcome — reduced downtime, improved reliability, or a happy stakeholder.\nReflect on what this taught you about ownership and team accountability.",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q10. How do you ensure code quality in your projects?",
+    "answer": "Ans. I ensure code quality through a combination of code reviews, automated testing, consistent coding standards, and continuous integration pipelines.\nI write unit tests, integration tests, and end-to-end tests to cover critical paths and edge cases.\nI participate actively in code reviews — both giving and receiving constructive feedback.\nI follow established coding standards and style guides such as Google's own style guides.\nI use static analysis tools and linters to catch issues early in the development cycle.\nI set up CI/CD pipelines to run tests automatically on every pull request before merging.\nI document my code clearly and keep documentation up to date alongside code changes.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q11. Tell me about a time you failed and what you learned from it.",
+    "answer": "Ans. I once underestimated the complexity of a database migration and caused a 2-hour service degradation. I learned the importance of thorough staging environment testing and rollback planning before any production change.\nBe honest and specific — interviewers respect genuine accountability over vague answers.\nDescribe the failure clearly without deflecting blame onto others.\nExplain the immediate actions you took to mitigate the impact once the failure occurred.\nDetail the root cause analysis process you conducted afterwards.\nShare the concrete changes you made to your process to prevent the same mistake.\nConvey the growth mindset — failure is a learning opportunity, not a career-defining moment.",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q12. How do you stay updated with the latest trends in software development?",
+    "answer": "Ans. I stay current by regularly reading tech blogs, following Google Research publications, attending conferences, and participating in open-source communities.\nI follow engineering blogs from Google, Netflix, Uber, and Meta to learn how top companies solve problems at scale.\nI read research papers on arXiv and attend virtual conferences like Google I/O and KubeCon.\nI contribute to or follow open-source repositories to see cutting-edge code in real-world use.\nI participate in developer communities on platforms like GitHub, Stack Overflow, and Discord.\nI set aside dedicated learning time each week to explore new tools, frameworks, or concepts.\nI discuss what I learn with teammates to reinforce knowledge and gather additional perspectives.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q13. How would you design a system to handle millions of users? (System Design Overview)",
+    "answer": "Ans. I would design the system with horizontal scalability, load balancing, caching, database sharding, and asynchronous processing to handle millions of concurrent users reliably.\nStart with requirements gathering: understand read vs write ratio, latency requirements, and data volume.\nUse a load balancer to distribute traffic evenly across multiple application server instances.\nImplement a caching layer using Redis or Memcached to reduce database load for frequent reads.\nShard the database horizontally to distribute data and reduce bottlenecks on a single DB node.\nUse a message queue like Kafka or Pub/Sub for asynchronous, decoupled processing of heavy operations.\nDeploy across multiple availability zones to ensure high availability and disaster recovery.\nMonitor with tools like Prometheus and Grafana, and set alerts for latency and error rate thresholds.",
+    "difficulty": "Hard"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q14. What does Googleyness mean to you?",
+    "answer": "Ans. To me, Googleyness means being curious, collaborative, and mission-driven while doing the right thing even when no one is watching — and thriving in ambiguity with a bias for learning.\nCuriosity: A genuine desire to understand how things work and to explore problems from first principles.\nCollaboration: Working openly with others, sharing credit, and helping teammates succeed.\nIntegrity: Being transparent, admitting mistakes quickly, and always doing what is right for the user.\nAmbiguity tolerance: Staying productive and making sound decisions even without complete information.\nInclusion: Respecting diverse perspectives and creating an environment where everyone can contribute.\nImpact focus: Caring deeply about whether your work makes a real difference for users and the world.",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Google",
+    "question": "Q15. Do you have any questions for us?",
+    "answer": "Ans. Yes — I always prepare thoughtful questions to understand the team, the role, and growth opportunities, which also demonstrates genuine interest in the position.\nWhat does success look like for this role in the first 6 months?\nHow does the team approach technical decision-making and design reviews?\nWhat are the biggest technical challenges the team is currently facing?\nHow is knowledge shared across teams — are there internal tech talks or guilds?\nWhat opportunities exist for engineers to contribute to open-source or publish research?\nHow does the team handle on-call rotations and ensure engineer well-being during incidents?",
+    "difficulty": "Easy"
+  }
+]

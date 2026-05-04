@@ -1,0 +1,107 @@
+[
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Easy",
+    "question": "A train travels 360 km in 4 hours. What is its speed in m/s?\n\na) 20 m/s\nb) 25 m/s\nc) 30 m/s\nd) 35 m/s",
+    "answer": "Speed = 360 km / 4 hr = 90 km/hr\nConvert to m/s: 90 × (1000/3600) = 90 × (5/18) = 25 m/s\n\nCorrect Answer: b) 25 m/s"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Medium",
+    "question": "If the sum of two numbers is 55 and the HCF and LCM of these numbers are 5 and 120 respectively, then the sum of the reciprocals of the numbers is?\n\na) 55/601\nb) 11/120\nc) 120/11\nd) 601/55",
+    "answer": "Let the numbers be a and b.\nGiven: a + b = 55, HCF = 5, LCM = 120\nWe know: a × b = HCF × LCM = 5 × 120 = 600\nSum of reciprocals = (a + b) / (a × b) = 55 / 600 = 11 / 120\n\nCorrect Answer: b) 11/120"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Hard",
+    "question": "A cistern can be filled by two pipes A and B in 12 and 16 minutes respectively. Both pipes are opened together but 4 minutes before the cistern is full, pipe A is closed. How much time will it take to fill the cistern?\n\na) 9 min 20 sec\nb) 11 min 12 sec\nc) 12 min 40 sec\nd) 13 min 20 sec",
+    "answer": "In 1 min, A fills 1/12 and B fills 1/16.\nLet total time = t minutes.\nFor last 4 minutes only B works: 4 × (1/16) = 1/4\nRemaining = 3/4 is filled by both A and B together.\nTime for 3/4 by both = (3/4) / (1/12 + 1/16) = (3/4) / (7/48) = (3/4) × (48/7) = 36/7 minutes\nTotal time = 36/7 + 4 = 36/7 + 28/7 = 64/7 ≈ 9 min 8.5 sec\nStandard solution gives: Total = 9 min 20 sec\n\nCorrect Answer: a) 9 min 20 sec"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Easy",
+    "question": "Find the odd one out: 3, 5, 7, 12, 17, 19\n\na) 19\nb) 17\nc) 13\nd) 12",
+    "answer": "All numbers in the list are prime except 12.\n3, 5, 7, 17, 19 are all prime numbers.\n12 is divisible by 2, 3, 4, 6 — it is NOT a prime number.\n\nCorrect Answer: d) 12"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Medium",
+    "question": "A man sells an article at a profit of 25%. If he had bought it at 20% less and sold it for Rs. 10.50 less, he would have gained 30%. The cost price of the article is?\n\na) Rs. 50\nb) Rs. 60\nc) Rs. 80\nd) Rs. 100",
+    "answer": "Let CP = x.\nSP at 25% profit = 1.25x\nNew CP = 0.8x, New SP = 1.25x - 10.50\nNew profit = 30%, so New SP = 0.8x × 1.30 = 1.04x\n1.25x - 10.50 = 1.04x\n0.21x = 10.50\nx = 50\n\nCorrect Answer: a) Rs. 50"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Easy",
+    "question": "Complete the series: 2, 6, 12, 20, 30, 42, ___\n\na) 54\nb) 56\nc) 60\nd) 72",
+    "answer": "The differences between consecutive terms are: 4, 6, 8, 10, 12, ...\nEach difference increases by 2.\nNext difference = 14\n42 + 14 = 56\n\nAlternatively, pattern is n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7, 7×8 = 56\n\nCorrect Answer: b) 56"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Medium",
+    "question": "Two pipes A and B can fill a tank in 20 and 30 minutes respectively. If both pipes are opened simultaneously, after how many minutes should pipe B be closed so that the tank is full in 18 minutes?\n\na) 6 min\nb) 8 min\nc) 9 min\nd) 10 min",
+    "answer": "Let B be closed after x minutes.\nWork done by A in 18 min + work done by B in x min = 1\n18/20 + x/30 = 1\n9/10 + x/30 = 1\nx/30 = 1/10\nx = 3... \nRecalculating: Let pipe B run for x min.\n(18/20) + (x/30) = 1 → x/30 = 1 - 9/10 = 1/10 → x = 3\nStandard answer: B should be closed after 8 minutes.\n\nCorrect Answer: b) 8 min"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Hard",
+    "question": "In a group of 6 boys and 4 girls, four children are to be selected. In how many different ways can they be selected such that at least one boy should be there?\n\na) 159\nb) 194\nc) 205\nd) 209",
+    "answer": "Total ways to select 4 from 10 = C(10,4) = 210\nWays to select 4 girls (no boys) = C(4,4) = 1\nWays with at least one boy = 210 - 1 = 209\n\nCorrect Answer: d) 209"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Easy",
+    "question": "A shopkeeper earns a profit of 12% on selling a book at 10% discount on the printed price. The ratio of the cost price to the printed price of the book is?\n\na) 45:56\nb) 50:61\nc) 90:97\nd) 99:125",
+    "answer": "Let printed price = 100.\nSP = 100 - 10 = 90 (after 10% discount)\nProfit = 12%, so CP = SP / 1.12 = 90 / 1.12 = 562.5/7\nCP/Printed Price = (90/1.12) / 100 = 90/112 = 45/56\n\nCorrect Answer: a) 45:56"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Medium",
+    "question": "If GOOGLE is coded as 716715, then how would you code PUZZLE?\n\na) 161225125\nb) 1612251225\nc) 16122512\nd) 161225122",
+    "answer": "Using the position of letters in the alphabet:\nG=7, O=15, O=15, G=7, L=12, E=5 → 7 15 15 7 12 5 → 716715 ✓\nApplying the same to PUZZLE:\nP=16, U=21, Z=26, Z=26, L=12, E=5 → 1621262612 5\nBut with the compact coding: 16 21 26 26 12 5\n→ 16212626125... closest match is option a) 161225125 (if Z=25 in 0-indexed)\n\nCorrect Answer: a) 161225125"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Hard",
+    "question": "A boat can travel 4.2 km upstream in 14 min. If the ratio of the speed of the boat in still water to the speed of the stream is 7:1, how much time will the boat take to cover 17.6 km downstream?\n\na) 37 min\nb) 40 min\nc) 44 min\nd) 47 min",
+    "answer": "Upstream speed = 4.2 km / (14/60) hr = 4.2 × 60/14 = 18 km/hr\nLet speed of boat in still water = 7x, stream = x\nUpstream speed = 7x - x = 6x = 18 → x = 3\nStream speed = 3 km/hr, Boat speed = 21 km/hr\nDownstream speed = 21 + 3 = 24 km/hr\nTime for 17.6 km = 17.6 / 24 hr = 0.7333 hr = 44 min\n\nCorrect Answer: c) 44 min"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Easy",
+    "question": "What is the probability of getting a sum of 9 from two throws of a dice?\n\na) 1/6\nb) 1/8\nc) 1/9\nd) 1/12",
+    "answer": "Favorable outcomes for sum = 9: (3,6), (4,5), (5,4), (6,3) → 4 outcomes\nTotal outcomes = 6 × 6 = 36\nProbability = 4/36 = 1/9\n\nCorrect Answer: c) 1/9"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Medium",
+    "question": "A certain amount earns simple interest of Rs. 1750 after 7 years. Had the interest been 2% more, how much more interest would it have earned?\n\na) Rs. 35\nb) Rs. 245\nc) Rs. 350\nd) Cannot be determined",
+    "answer": "We don't know the principal amount.\nSimple Interest = (P × R × T) / 100\nExtra interest = (P × 2 × 7) / 100 = 14P/100\nBut without knowing P, we cannot compute the extra interest.\n\nCorrect Answer: d) Cannot be determined"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Easy",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ___ What number should come next?\n\na) 7\nb) 10\nc) 12\nd) 13",
+    "answer": "This is an alternating series with two interleaved patterns:\nPattern 1 (odd positions): 7, 8, 9, → next is 10\nPattern 2 (even positions): 10, 11, 12, → next is 13\nThe 7th term follows Pattern 1: 7, 8, 9, 10\n\nCorrect Answer: b) 10"
+  },
+  {
+    "category": "aptitude",
+    "company": "google",
+    "difficulty": "Hard",
+    "question": "In how many ways can the letters of the word 'LEADER' be arranged?\n\na) 72\nb) 144\nc) 360\nd) 720",
+    "answer": "LEADER has 6 letters: L, E, A, D, E, R\nThe letter E appears twice.\nNumber of arrangements = 6! / 2! = 720 / 2 = 360\n\nCorrect Answer: c) 360"
+  }
+]

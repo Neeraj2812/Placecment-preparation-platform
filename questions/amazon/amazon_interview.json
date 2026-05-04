@@ -1,0 +1,37 @@
+[
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q1. Why Amazon Software Developer?",
+    "answer": "Ans. Amazon offers challenging projects, innovative technologies, and a collaborative work environment.Opportunity to work on cutting-edge projects like Amazon Web Services (AWS) or Alexa\nAccess to vast resources and tools for development\nCollaborative work culture that encourages learning and growth\nOpportunity to impact millions of customers worldwide\nCompetitive compensation and benefits package",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q2. Why do you want to work at amazon ?",
+    "answer": "Ans. I want to work at Amazon because of their innovative culture, vast resources, and opportunities for growth.Amazon is known for its innovative culture and cutting-edge technology.\nThey have vast resources and a global reach, providing opportunities to work on impactful projects.\nAmazon offers great career growth and development opportunities for software developers.\nI admire Amazon's customer-centric approach and focus on continuous improvement.",
+    "difficulty": "Easy"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q3. What are your strengths and weakness?",
+    "answer": "Ans. My strengths include problem-solving skills and attention to detail. My weakness is sometimes being too critical of my own work.Strengths: problem-solving skills\nStrengths: attention to detail\nWeakness: being too critical of my own work",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q4. How would you solve?",
+    "answer": "Ans. I would solve the problem by breaking it down into smaller tasks, analyzing requirements, designing a solution, coding, testing, and debugging.Analyze requirements thoroughly before starting the development process\nBreak down the problem into smaller tasks to make it more manageable\nDesign a solution architecture that meets the requirements and is scalable\nCode the solution using best practices and coding standards\nTest the code thoroughly to ensure it works as expected\nDebug any issues that arise during testing to ensure a high-quality solution",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "interview",
+    "company": "Amazon",
+    "question": "Q5. What are the short term and long-term for teame or organisation?",
+    "answer": "Ans. Short term goals focus on immediate tasks and objectives, while long-term goals involve strategic planning and growth.Short term goals may include completing a specific project, improving team communication, or implementing a new software feature.\nLong-term goals could involve expanding the team, increasing market share, or developing new products or services.\nShort term goals help keep the team focused and motivated, while long-term goals provide direction and vision for the organization.\nBoth short and long-term goals should be aligned with the overall mission and values of the organization.",
+    "difficulty": "Hard"
+  }
+]

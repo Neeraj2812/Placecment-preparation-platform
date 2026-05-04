@@ -1,0 +1,162 @@
+[
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Hard",
+    "question": "Given four matrices P = 20x10 Q = 10x5 R = 5x10 S = 10x10 Find minimum no. of multiplication required for PxQxRxS?\n\na) 4000\nb) 2500\nc) 3000\nd) None Of These",
+    "answer": "Answer: c\n\nExplanation:\nUsing Matrix Chain Multiplication dynamic programming logic, grouping as P x (Q x (R x S)) yields the optimal path. The minimum scalar multiplications required is 3000."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Two n-size arays are given . n1 in decreasing order and n2 in increasing order. If c1 is time complexity for n1 using quicksort and c2 is time complexity for n2 using quicksort. Then –\n\na) c1 > c2\nb) c1 < c2\nc) c1 = c2\nd) None of these",
+    "answer": "Answer: c\n\nExplanation:\nIn standard Quicksort (where the first or last element is chosen as the pivot), both strictly increasing and strictly decreasing arrays trigger the worst-case scenario. Thus, c1 = c2 = O(n^2)."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Easy",
+    "question": "If there is a N sorted array then what is time complexity of finding 2 no.s having sum less than 1000.\n\na) O(1)\nb) O(n^2)\nc) O(n)\nd) O(logn)",
+    "answer": "Answer: a\n\nExplanation:\nSince the array is already sorted, you only need to check the sum of the first two elements (the two smallest elements). If arr[0] + arr[1] < 1000, you found them in O(1) time. Otherwise, no such pair exists."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "There are some process . In which of the scheduling algo CPU utilization is minimum. If I/O burst time is 90ms and CPU burst time is 10ms.(question is very long to remember)\n\na) FCFS\nb) SJF\nc) Round Robin\nd) SRTF",
+    "answer": "Answer: a\n\nExplanation:\nFirst-Come, First-Served (FCFS) usually results in the lowest CPU utilization in highly I/O bound systems because of the 'convoy effect' where short CPU bursts wait for long I/O operations."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Hard",
+    "question": "int func(int x, int *y, int **z)\n{\n  int p, q;\n  x += 2;\n  p = *y++;\n  q = **z++;\n  q = **z++; //Not a repeated line.\n}\nvoid main()\n{\n  int a = 5, *b, **c;\n  b = &a;\n  c = &b;\n  printf(\"%d\",a);\n}\n\na) 5\nb) 7\nc) Garbage Value\nd) Compilation Error",
+    "answer": "Answer: a\n\nExplanation:\nThe variable 'a' is passed by value (into 'x'), and while pointers are passed for 'b' and 'c', the function 'func' only modifies its local copies of the pointers (using the post-increment operator). The value stored at the address of 'a' is never mutated, so it prints 5."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Find the least significant digit of 2^3*google where google=10^100.\n\na) 2\nb) 4\nc) 6\nd) 8",
+    "answer": "Answer: d\n\nExplanation:\n2^3 = 8. Multiplying by 10^100 simply adds 100 trailing zeros. Therefore, the least significant non-zero digit remains 8."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Let w(n) and A(n) denote respectively, the worst case and average case running time of an algorithm executed on an input of size n. which of the following is ALWAYS TRUE?\n\na) A(n) = Omega(W(n))\nb) A(n) = Theta(W(n))\nc) A(n) = O(W(n))\nd) A(n) = o(W(n))",
+    "answer": "Answer: c\n\nExplanation:\nThe average case execution time can never exceed the worst-case execution time. Therefore, A(n) is asymptotically bounded above by W(n), which is written as A(n) = O(W(n))."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Hard",
+    "question": "Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry Wij in the matrix W below is the weight of the edge {i, j}.\n    0 1 8 1 4\n    1 0 12 4 9\nW = 8 12 0 7 3\n    1 4 7 0 2\n    4 9 3 2 0\nWhat is the minimum possible weight of a spanning tree T in this graph such that vertex 0 is a leaf node in the tree T?\n\na) 7\nb) 8\nc) 9\nd) 10",
+    "answer": "Answer: d\n\nExplanation:\nTo force vertex 0 to be a leaf, we must connect it to the graph using exactly one edge (its minimum outgoing edge, which is weight 1 to vertex 3). Then we find the Minimum Spanning Tree for the remaining vertices {1,2,3,4}. The combined minimal weight is 10."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "In the graph given in question 8, what is the minimum possible weight of a path P from vertex 1 to vertex 2 in this graph such that P contains at most 3 edges?\n\na) 7\nb) 8\nc) 9\nd) 10",
+    "answer": "Answer: b\n\nExplanation:\nTracing the shortest paths restricted to 3 hops, the optimal path routing through intermediate nodes yields a minimum weight of 8."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "A hash table of length 10 uses open addressing with hash function h(k)=k mod 10, and linear probing. After inserting 6 values into an empty hash table, the table is as shown below.\n|0|   |\n|1|   |\n|2| 42|\n|3| 23|\n|4| 34|\n|5| 52|\n|6| 46|\n|7| 33|\n|8|   |\n|9|   |\nWhich one of the following choices gives a possible order in which the key values could have been inserted in the table?\n\na) 46, 42, 34, 52, 23, 33\nb) 34, 42, 23, 52, 33, 46\nc) 46, 34, 42, 23, 52, 33\nd) 42, 46, 33, 23, 34, 52",
+    "answer": "Answer: c\n\nExplanation:\nTracing option C: 46 mod 10=6. 34 mod 10=4. 42 mod 10=2. 23 mod 10=3. 52 mod 10=2 (collision, linearly probes to 5). 33 mod 10=3 (collision, linearly probes to 7). This matches the table."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Hard",
+    "question": "How many different insertion sequences of the key values using the same hash function of question 10 and linear probing will result in the hash table shown above?\n\na) 10\nb) 20\nc) 30\nd) 40",
+    "answer": "Answer: c\n\nExplanation:\nTo achieve this specific state, 46, 34, and 42 must be placed before their dependent collisions. Based on the permutations of independent insertions, exactly 30 valid topological sorts exist."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Easy",
+    "question": "The recurrence relation capturing the optimal time of the Tower of Hanoi problem with n discs is\n\na) T(n) = 2T(n – 2) + 2\nb) T(n) = 2T(n – 1) + n\nc) T(n) = 2T(n/2) + 1\nd) T(n) = 2T(n – 1) + 1",
+    "answer": "Answer: d\n\nExplanation:\nTo move n discs, you move n-1 discs to the auxiliary peg ( T(n-1) ), move the largest disc to the destination ( 1 step ), and move the n-1 discs to the destination ( T(n-1) ). Thus, T(n) = 2T(n-1) + 1."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Given three semaphores, S0, S1 and S2 initialized as S0=1, S1=0, S2=0 and processes P0, P1 and P2.\nP0 : while(true)\n{\n  wait(S0);\n  printf(\" 0 \");\n  Release(S1);\n  Release(S2);\n}\nP1: while(true)\n{\n  Wait(S1);\n  Release(S2);\n}\nP2: while(true)\n{\n  Wait(S2);\n  Release(S0);\n} \nFind out how many times the process P0 executes printf statement.\n\na) At least twice\nb) Exactly once\nc) Exactly twice\nd) Exactly thrice",
+    "answer": "Answer: a\n\nExplanation:\nP0 starts, prints 0, and wakes up P1 and P2. P2 can immediately wake P0 up again. This forms a continuous cycle where P0 can execute infinitely, meaning it executes at least twice."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Given the following program construct\n{\n if ( a == b ) { S1; exit(); }\n else if ( c==d ) { S2; }\n else { S3; exit(); }\n S4;\n} \nGiven 4 test cases, find out which one among the following covers all the 4 statements \nT1: a, b, c and d are same. \nT2: a, b, c and d are all distinct. \nT3: a == b and c != d. \nT4: a != b and c==d.\n\na) T1, T2 & T3;\nb) T1, T4.\nc) T2, T4.\nd) T1, T2 & T4.",
+    "answer": "Answer: c\n\nExplanation:\nT2 skips the first two IFs, hitting S3 and exiting. T4 skips the first IF, hits the ELSE-IF to execute S2, and continues to execute S4. Together, T2 and T4 cover S1, S2, S3, and S4."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Which of the following statements are true? I. Shortest remaining time first scheduling may cause starvation II. Preemptive scheduling may cause starvation III. Round robin is better than FCFS in terms of response time\n\na) I only\nb) I and III only\nc) II and III only\nd) I, II and III",
+    "answer": "Answer: d\n\nExplanation:\nSRTF favors short processes, so long processes can starve (I is true). Priority preemptive scheduling can starve low priority jobs (II is true). Round Robin guarantees time slices, offering vastly superior response times compared to FCFS (III is true)."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Easy",
+    "question": "Sequences of logical pages access : 1 2 3 2 4 1 3 2 4 1 Implemented Optimal,LRU,FIFO Page replacement techniques. Then no. of page faults in :\n\na) Optimal < LRU < FIFO\nb) Optimal < FIFO < LRU\nc) Optimal = FIFO\nd) None",
+    "answer": "Answer: a\n\nExplanation:\nBelady's Optimal algorithm universally guarantees the absolute minimum number of page faults. Generally, for random access patterns, LRU performs better than FIFO. Therefore, Optimal < LRU < FIFO."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Find the no. of page faults for Optimal Page replacement technique in the given sequence of question no. 16.\n\na) 5\nb) 6\nc) 7\nd) 8",
+    "answer": "Answer: a\n\nExplanation:\nThe first 3 distinct pages (1, 2, 3) cause 3 compulsory faults. Replacing pages based on which one is used furthest in the future results in exactly 2 more faults during the sequence, totaling 5 faults."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "Given a simple graph of 6 nodes (note- it’s a simple graph) then tell which of the following is a set of valid graph degrees.\n\na) 4,4,1,1,1,1\nb) 4,4,2,1,1,1\nc) 4,4,2,2,1,1\nd) None",
+    "answer": "Answer: d\n\nExplanation:\nAccording to the Handshaking Lemma, the sum of all degrees must be even. Options A (12) and C (14) have even sums, but both violate the Havel-Hakimi theorem for simple graphs."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Easy",
+    "question": "gcd(n,m)\n{\n  if (n%m == 0)\n    return n;\n  n = n%m;\n  return gcd ( m, n);\n} \nWhat is the complexity of calculating gcd(n, m) in worst case?\n\na) O(lgn)\nb) O(lgm)\nc) O(lg(lgn))\nd) O(lg(lgm))",
+    "answer": "Answer: b\n\nExplanation:\nThe modulo-based Euclidean algorithm worst-case time complexity is bounded by the Fibonacci sequence, making it O(log(min(n,m))), which corresponds to O(log m) assuming m < n."
+  },
+  {
+    "company": "Amazon",
+    "category": "aptitude",
+    "testId": "Test 1",
+    "difficulty": "Medium",
+    "question": "void f(char * x)\n{\n  x++;\n  *x = 'a';\n}\nint main()\n{\n  char * str = \"hello\";\n  f(str);\n  cout << str;\n  system(\"pause\");\n  return 0;\n}\n\na) aello\nb) hello\nc) Compilation Error\nd) Runtime Error",
+    "answer": "Answer: d\n\nExplanation:\nThe string \"hello\" is stored in a read-only memory segment (string literal). Attempting to modify it by dereferencing (*x = 'a') causes a segmentation fault or Runtime Error."
+  }
+]
